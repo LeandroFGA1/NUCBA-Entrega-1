@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 3 : Formularios</title>
+    </head>
+    <body>
+        <nav>
+            <p>Ejercicios: 
+                <a href="index.html"     >Ejercicio 1</a>
+                <a href="ejercicio2.html">Ejercicio 2</a>
+                <a href="ejercicio3.html">Ejercicio 3</a>
+            </p>  
+        </nav>
+        
+        <h1>Formulario de registro</h1>
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br><br>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="nombre">
+            
+            <p>
+                Modalidad de la Cursada:
+                <label for="on-demand">On-Demand</label>
+                <input type="radio" name="modulo" id="on-demand">
+                <label for="en-vivo">En Vivo</label>
+                <input type="radio" name="modulo" id="en-vivo">
+            </p>
+
+            <label for="email">Correo:</label>
+            <input type="email" name="email" id="email"><br><br>
+            
+            <input type="checkbox" name="recibir-informacion" id="recibir-informacion">
+            <label for="recibir-informacion">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba.</label>
+            <br><br>
+            <input type="checkbox" name="terminos-condiciones" id="terminos-condiciones">
+            <label for="terminos-condiciones">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+            <br><br>
+            
+            <input type="button" value="Enviar">
+        
+        </form>
+    </body>
+</html>
